@@ -31,7 +31,7 @@ Pseudo Code :
      for(i = 0 ; i < = length - 2; i++){
           minVal = i;
           for(j = i +1; j < = length - 1 ;j++){
-               if(arr[j] < arr[minVal]){  // If you want in Decending order just change if(arr[j] > arr[minVal])
+               if(arr[j] < arr[minVal]){  // If you want in Descending order just change if(arr[j] > arr[minVal])
                     minVal = j;
                }
           }
